@@ -14,6 +14,8 @@
 		7B255104255A23A800FF63A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B255103255A23A800FF63A0 /* Assets.xcassets */; };
 		7B255107255A23A800FF63A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B255105255A23A800FF63A0 /* LaunchScreen.storyboard */; };
 		7B255115255A247A00FF63A0 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B255114255A247A00FF63A0 /* ConversationsController.swift */; };
+		7B255118255A35EC00FF63A0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B255117255A35EC00FF63A0 /* LoginController.swift */; };
+		7B25511A255A360600FF63A0 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B255119255A360600FF63A0 /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7B255106255A23A800FF63A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B255108255A23A800FF63A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B255114255A247A00FF63A0 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		7B255117255A35EC00FF63A0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7B255119255A360600FF63A0 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		7B255110255A240600FF63A0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7B255116255A35B400FF63A0 /* Authentication */,
 				7B255114255A247A00FF63A0 /* ConversationsController.swift */,
 			);
 			path = Controller;
@@ -116,6 +121,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7B255116255A35B400FF63A0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				7B255117255A35EC00FF63A0 /* LoginController.swift */,
+				7B255119255A360600FF63A0 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +207,8 @@
 				7B2550FB255A23A600FF63A0 /* AppDelegate.swift in Sources */,
 				7B255115255A247A00FF63A0 /* ConversationsController.swift in Sources */,
 				7B2550FD255A23A600FF63A0 /* SceneDelegate.swift in Sources */,
+				7B25511A255A360600FF63A0 /* RegistrationController.swift in Sources */,
+				7B255118255A35EC00FF63A0 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

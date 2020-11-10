@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: cene)
         
-        let nav = UINavigationController(rootViewController: ConversationsController())
+        let nav = UINavigationController(rootViewController: LoginController())
         
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
